@@ -1,0 +1,75 @@
+  
+  
+  
+   <!-- <div class="ui main text container"> -->
+    <div *ngIf="!article"  class="loadingElement" >
+      <div class="ui active inverted dimmer">
+        <div class="ui massive text loader">Loading Article... </div>
+      </div>
+    </div>
+  <div *ngIf="article">
+    
+  <div class="ui raised segment">
+   
+  <div class="ui huge centered header">{{article.title }}</div>
+  <img class="ui centered rounded large image" src="{{article.image}}">
+  <h4>{{article.date | date : 'dd/MMM/yyyy'}}  | Created By <span class="userspan">{{article.author.name}}</span></h4>
+  <hr>
+  <p >{{article.desc }}</p>
+  <br>
+  <br>
+  
+  <form  class="like" >
+    
+
+
+  <div class="ui left labeled  button" tabindex="0">
+                <div class="ui basic right label">
+                  {{article.likes}}
+                </div>
+                
+
+                <button (click)="onLike()" [disabled]="deleteButton" class="ui button likem">
+                  <i  class="thumbs up icon"></i>
+                </button>
+
+                
+
+
+                
+
+  </div>
+  </form>
+  
+  
+  
+  
+  
+    <button (click)="onDelete()" [disabled]="deleteButton" *ngIf="checkUser" class="ui mini red button article" >Delete</button>
+
+  <button  routerLink="edit"   class="ui mini green button article" *ngIf="checkUser" [disabled]="deleteButton">Edit</button>
+
+  
+  <app-comment *ngFor="let comment of article.comments" [comment]="comment"  ></app-comment>
+  
+  
+  <hr>
+    <form  class="ui form" (ngSubmit)="onComment()" >
+  
+      <div class="field">
+  
+       <textarea class="textarea" type="textarea" rows="5" name="content" [(ngModel)]="comment" ></textarea>
+      </div>
+  
+  
+  
+  
+       <input type="submit" value="Comment" class="ui mini primary button" [disabled]="deleteButton">
+      
+  
+  
+  </form>
+  </div>
+  <!-- </div> -->
+
+</div>

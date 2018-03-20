@@ -1,0 +1,16 @@
+<!-- <div class="ui main text container"> -->
+         
+<h1>All Articles</h1>
+<hr>
+
+<div *ngIf="!articles" class="loadingElement" >
+    <div class="ui active inverted dimmer">
+      <div class="ui massive text loader">Loading All Articles... </div>
+    </div>
+  </div>
+  
+<app-article *ngFor="let article of articles" [article]="article" >
+    
+</app-article>
+
+<!-- </div> -->

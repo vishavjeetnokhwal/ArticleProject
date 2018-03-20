@@ -1,0 +1,270 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('../node_modules/semantic-ui-css/semantic.min.css');
+div,.ui.huge.centered.header,p,h1{
+	font-family: 'Montserrat', sans-serif;
+
+}
+.item>.content>.header{
+	font-family: 'Montserrat', sans-serif!important;
+  font-size: 2rem!important;
+}
+.ui.button{
+	font-family: 'Montserrat', sans-serif!important;
+	
+}
+
+
+
+.ui.raised.segment>.image>img{
+	border-radius: 35px;
+	width: 14rem;
+	height:14rem;
+}
+.statistic>.value{
+	font-size: 3rem;
+	margin: 10% auto;
+	text-align: center;
+	color: green;
+}
+.statistic>.label{
+	margin: 0% auto;
+	text-align: center;
+}
+
+#totalUsers{
+	position: fixed;
+    left: 26%;
+    top: 26%;
+    right: 65%;
+}
+
+#totalActivated{
+	position: fixed;
+    left: 26%;
+    top: 46%;
+    right: 65%;
+}
+
+#totalAdmin{
+	position: fixed;
+    left: 26%;
+    top: 66%;
+    right: 65%;
+}
+.ui.items>.item>.image>img
+{
+	width: 12rem;
+	height: 12rem;
+}
+img.ui.centered.rounded.large.image{
+	width: 50rem;
+	height: 30rem;
+}
+.customValid{
+	color: red;
+	margin-bottom: 2%;
+	margin-top: -2%;
+}
+textarea.ng-invalid.ng-touched,input.ng-invalid.ng-touched{
+	border: 1px solid red!important;
+	box-shadow: 0px 0px 6px 0px rgba(255,0,0,0.5)!important;
+	
+}
+ 
+.loadingUsers{
+	position: fixed;
+	top: 45%;
+	left: 70%;
+	z-index: 1;
+}
+.ui.massive.text.loader{
+	min-width: 20.577rem;
+
+}
+.loadingElement{
+
+	position: fixed;
+    top: 47%;
+    right: 60%;
+	left: 47%;
+	z-index: 1; 
+}
+
+#userComponent{
+	margin-bottom: 3%;
+}
+.flashmessage{
+	position: fixed;
+	top: 8%;
+	right: 0%;
+	left:80%;
+	z-index: 1;
+}
+#adminpannel{
+	position: fixed;
+    top: 12%;
+    left: 2%;
+    right: 59%;
+    bottom: 3%;
+}
+#myusers{
+    position: absolute;    
+	right: 5%;
+    left: 45%;
+}
+.ui.negative.message{
+	margin-bottom: -14%;
+}
+
+.ui.success.message{
+	margin-bottom: -14%;
+}
+
+
+
+.ui.tiny.image > img
+{
+	margin-left: 50%;
+}
+.textarea{
+width: 100%;
+height: 95px;
+padding: 0px;
+
+}
+.actspanr{
+	margin-left: 30%;
+	color: red;
+}
+.actspang{
+	margin-left: 30%;
+	color: green;
+}
+.monu{
+	margin-left: 2%;
+}
+
+
+.article{
+	float: right;
+}
+.article1{
+	float: right;
+	margin-top: 6%;
+}
+.like{
+	max-width: 20%;
+    display: inline;
+}
+
+hr{ border: 0; height: 0; border-top: 1px solid rgba(0, 0, 0, 0.1); border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+
+.ui.large.header{
+	padding-bottom: 0px;
+    margin-bottom: -9px;
+}
+hr{
+	    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.ui.left.labeled.button{
+	height:30px;
+}
+.ui.button.likem{
+	padding: 8px;
+	font-size: 12px;
+	justify-content: center;
+
+}
+.ui.basic.right.label{
+	padding: 8px;
+	font-size: 12px;
+	min-width: 50px;
+	justify-content: center;
+}
+.ui.huge.centered.header.upp
+{
+	margin-top: 10%;
+}
+.ui.huge.centered.header.dnn
+{
+	margin-top: -15%;
+}
+.massive.ui.button.articl{
+  margin-left: 30%;
+}
+
+.massive.ui.buttons{
+	margin-top: 20%;
+}
+
+.ui.centered.card{
+	margin-top: 5%;
+	margin-bottom: 4%;
+	width:40rem;
+}
+.ui.card>.image>img{
+	height: 29rem!important;
+}
+
+
+
+.comment .button{
+	padding: 3px;
+}
+
+
+.userspan{
+	font-size: 18px;
+    color: green;
+    font-style: italic;
+}
+
+.header.item>i{
+
+	font-size: 2em;
+}
+
+
+.ui.segment.container {
+
+
+	margin-top: 7em;
+}
+
+.ui.text.container{
+margin-top: 4em;
+
+}
+
+
+#deletef{
+
+	display: inline;
+}
+
+
+#delete{
+	display: inline;
+}
+
+
+.ui.items > .item > .image > img{
+
+border-radius: 500rem;
+
+}
+
+.ui.items > .item > .content > .header {
+
+	    color: rgb(51, 158, 55);
+}
+.ui.main.text.container{
+
+	margin-bottom: 7em;
+}
+
+
+
+
