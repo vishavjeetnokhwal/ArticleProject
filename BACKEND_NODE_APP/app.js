@@ -25,7 +25,7 @@ var articleRoute   =require("./routes/article"),
 
 
 app = express();
-mongoose.connect("mongodb://vishavjeet:vishavjeet@ds153113.mlab.com:53113/ng_article");
+mongoose.connect("mongodb://.mlab.com:53113/ng_article");
 //mongoose.connect("mongodb://localhost/ng_article");
 
 app.use(cors());
